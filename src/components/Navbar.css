@@ -1,0 +1,11 @@
+:root{
+    --btn-color: #F44545;
+}
+
+.navbar-btn{
+   background: var(--btn-color);
+   padding: 15px 30px;
+   color:#fff;
+   border: none;
+   border-radius: 6px;
+}
