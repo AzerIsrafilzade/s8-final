@@ -9,3 +9,38 @@
    border: none;
    border-radius: 6px;
 }
+
+.navbar-btn:hover {
+    color:#fff;
+    background: var(--btn-color);
+}
+
+.mobile-menyu {
+    position: fixed;
+    z-index: 9;
+    background-color: #fff;
+    width: 0;
+    overflow-x: hidden;
+    transition: 1.3s linear;
+    
+}
+
+.mobile-menyu.menyunu-acan-class {
+    width: 100%;
+
+}
+
+
+.mobile-menyu-links{
+    padding-top: 100px;
+}
+
+.close-icon {
+    position:absolute;
+    right: 20px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 24px;
+    
+}
